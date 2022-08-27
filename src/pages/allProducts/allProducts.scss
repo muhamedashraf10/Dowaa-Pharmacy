@@ -1,0 +1,28 @@
+@import "../../styles//variables.scss";
+
+.AllProducts {
+  padding-top: 20px;
+  padding-bottom: 75px;
+
+  .small-nav {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    a {
+      text-decoration: none;
+      color: $primary-color;
+    }
+    i {
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #646464;
+    }
+    span {
+      color: #a7a7a7;
+    }
+  }
+
+  .current-page {
+    font-weight: 700;
+  }
+
+}

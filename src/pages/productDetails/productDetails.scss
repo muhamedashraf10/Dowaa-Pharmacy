@@ -1,0 +1,135 @@
+@import "../../styles//variables.scss";
+
+.ProductDetails {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  .small-nav {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    a {
+      text-decoration: none;
+      color: $primary-color;
+    }
+    i {
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #646464;
+    }
+    span {
+      color: #a7a7a7;
+    }
+  }
+
+  .header {
+    padding-top: 10px;
+    .header-left {
+      img {
+        width: 100%;
+        border-radius: 5px;
+      }
+    }
+    .header-middle {
+      a{
+        text-decoration: none;
+        font-size: 14px;
+        color: $primary-color;
+      }
+      h6 {
+        padding-top: 30px;
+        font-weight: 400;
+        margin-bottom: 30px;
+      }
+      h5 {
+        margin-bottom: 30px;
+      }
+      p{
+        font-size: 14px;
+        font-weight: 300;
+        
+      }
+      img {
+        width: 25px;
+      }
+      .brand-count{
+        padding-right: 5px;
+        font-size: 20px;
+        color: $secondary-color;
+      }
+      span {
+        font-weight: 500;
+      }
+      button {
+        margin-top: 20px;
+        font-weight: 500;
+        background-color: $primary-color;
+        border-color: $primary-color;
+        &:hover {
+          background-color: $secondary-color;
+        }
+      }
+      .add-to-cart {
+        width: 60%;
+        line-height: 30px;
+        margin-right: 5%;
+      }
+      .add-to-saved{
+        line-height: 30px;
+        width: 15%;
+      }
+    }
+    .header-right {
+      border: $border;
+      border-radius: 10px;
+      i {
+        border: $border;
+        padding: 5px;
+        border-radius: 8px;
+        color: $primary-color;
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+      }
+      
+      .share {
+        text-align: center;
+        .react-share__ShareButton {
+          &:focus {
+            all: unset;
+          }
+        }
+        i {
+          margin: 10px 7px;
+          border-radius: 50%;
+          width: 32px;
+          height: 31px;
+          &:hover {
+            transform: scale((1.2,1.2));
+            transition: ease-in-out 0.3s;
+          }
+        }
+      }
+    }
+  }
+
+  .order-description {
+    background-color: #f8f8f8;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h4 {
+      margin-bottom: 40px;
+    }
+  }
+
+  .more-from-this{
+    margin-bottom: 75px;
+    h4 {
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+    
+  }
+}

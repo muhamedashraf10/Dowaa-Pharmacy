@@ -1,0 +1,22 @@
+@import "../../styles/variables.scss";
+
+.ScrollToTOp {
+  img {
+    border-radius: 50%;
+    width: 40px;
+    z-index: 9999;
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    cursor: pointer;
+  }
+}
+
+// hide scroll to top button on small screens
+@media screen and (max-width: 991px){
+  .ScrollToTOp {
+    img {
+      visibility: hidden;
+    }
+  }
+}
